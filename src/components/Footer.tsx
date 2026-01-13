@@ -3,7 +3,7 @@ import { Mail, MapPin } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="bg-primary text-white mt-20">
+    <footer className="bg-primary text-white">
       <div className="max-w-7xl mx-auto px-6 py-14 grid md:grid-cols-4 gap-10">
         <div>
           <h3 className="text-2xl font-semibold">
@@ -19,9 +19,9 @@ export default function Footer() {
           <h4 className="font-semibold mb-4 text-lg">Produits</h4>
           <ul className="space-y-2 text-gray-300 text-sm">
             <li>
-              <Link to="/produits" className="hover:text-white transition">
+              <a href="https://www.orthocabinet.com/" target="_blank" className="hover:text-white transition">
                 OrthoCabinet
-              </Link>
+              </a>
             </li>
             <li>
               <Link to="/produits" className="hover:text-white transition">
@@ -45,7 +45,7 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link to="/mentions-legales" className="hover:text-white transition">
+              <Link to="/mentions-legales"  className="hover:text-white transition">
                 Mentions légales
               </Link>
             </li>

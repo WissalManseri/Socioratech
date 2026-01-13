@@ -56,16 +56,17 @@ export default function Products() {
 
   return (
     <div className="min-h-screen">
-      {/* <section className="bg-gradient-to-br from-primary to-blue-900 text-white py-20">
+      <section className="bg-gradient-to-br from-primary to-blue-900 text-white py-20">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-semibold mb-6">
-            Nos Solutions
+          <h1 className="text-2xl md:text-3xl font-semibold mb-6">
+            Nos solutions
           </h1>
-          <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-            Des outils conçus avec et pour les professionnels du secteur socio-médical
+          <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
+            Des solutions pensées pour accompagner les professionnels du secteur socio-médical
+            dans la gestion, le suivi et l’optimisation de leur pratique quotidienne.
           </p>
         </div>
-      </section> */}
+      </section>
 
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-6">
@@ -79,8 +80,8 @@ export default function Products() {
                   OrthoCabinet
                 </h2>
                 <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                  La solution complète pour les orthophonistes : gérez votre cabinet, suivez vos patients et simplifiez votre activité au quotidien.  
-                  <strong>Gagnez du temps et concentrez-vous sur l’essentiel : vos patients !</strong>
+                  La solution complète pour les orthophonistes : gérez votre cabinet, suivez vos patients et simplifiez votre activité au quotidien.   
+                  <br /><strong>Gagnez du temps et concentrez-vous sur l’essentiel : vos patients !</strong>
                 </p>
                 <a
                   href="https://www.orthocabinet.com"
@@ -182,15 +183,32 @@ export default function Products() {
               D'autres solutions en préparation
             </h2>
             <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-              Nous travaillons sur de nouveaux outils pour les psychologues,
+              Nous travaillons sur de nouveaux outils pour les orthophonistes, psychologues,
               éducateurs spécialisés et autres professionnels du secteur socio-médical.
             </p>
-            <Link
-              to="/contact"
-              className="inline-block border-2 border-secondary text-secondary px-8 py-3 rounded-lg hover:bg-secondary hover:text-white transition"
-            >
-              Être informé des nouveautés
-            </Link>
+            <div className="max-w-md mx-auto">
+            <form className="sm:flex-row gap-4 justify-center">
+              
+              <input
+                type="email"
+                required
+                placeholder="Votre adresse e-mail"
+                className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-secondary mb-4"
+              />
+              
+              <button
+                type="submit"
+                className="bg-secondary text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition font-medium"
+              >
+                Être informé
+              </button>
+            </form>
+
+            <p className="text-sm text-gray-500 mt-4">
+              Aucun spam. Uniquement des informations utiles sur nos solutions.
+            </p>
+          </div>
+
           </div>
         </div>
       </section>

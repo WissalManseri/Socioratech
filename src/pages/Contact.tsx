@@ -37,7 +37,7 @@ export default function Contact() {
     <div className="min-h-screen">
       <section className="bg-gradient-to-br from-primary to-blue-900 text-white py-20">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <h1 className="text-3xl md:text-4xl font-bold mb-6">
+          <h1 className="text-2xl md:text-3xl font-bold mb-6">
             Contactez-nous
           </h1>
           <p className="text-xl text-blue-100 max-w-4xl mx-auto">

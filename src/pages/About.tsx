@@ -52,8 +52,8 @@ export default function About() {
     <div className="min-h-screen">
       <section className="bg-gradient-to-br from-primary to-blue-900 text-white py-20">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <h1 className="text-3xl md:text-4xl font-semibold mb-6">
-            À propos de SOCIORA
+          <h1 className="text-2xl md:text-3xl font-semibold mb-6">
+            À propos de SocioraTech<span className="text-secondary">.</span>
           </h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
             Une entreprise algérienne engagée dans le développement des solutions numériques pour les professionnels
@@ -107,7 +107,7 @@ export default function About() {
             <h2 className="text-3xl font-semibold text-primary mb-4">
               Nos valeurs
             </h2>
-            <p className="text-lg font-medium text-gray-600">
+            <p className="text-lg font-semibold text-gray-600">
               Les valeurs qui orientent notre action au quotidien
             </p>
           </div>

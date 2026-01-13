@@ -5,7 +5,7 @@ export default function Legal() {
     <div className="min-h-screen">
       <section className="bg-gradient-to-br from-primary to-blue-900 text-white py-20">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
+          <h1 className="text-2xl md:text-3xl font-bold mb-6">
             Mentions légales
           </h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto">
@@ -47,7 +47,7 @@ export default function Legal() {
             <div className="bg-gray-50 rounded-xl p-8 mb-8">
               <h2 className="text-2xl font-bold text-primary mb-4">Éditeur du site</h2>
               <div className="space-y-2 text-gray-700">
-                <p><strong>Raison sociale :</strong> SOCIORA SOLUTIONS</p>
+                <p><strong>Raison sociale :</strong> Socioratech</p>
                 <p><strong>Forme juridique :</strong> [À compléter]</p>
                 <p><strong>Siège social :</strong> Algérie</p>
                 <p><strong>Email :</strong> contact@sociora.com</p>
@@ -57,7 +57,7 @@ export default function Legal() {
             <div className="mb-12">
               <h2 className="text-2xl font-bold text-primary mb-4">Directeur de la publication</h2>
               <p className="text-gray-700">
-                Le directeur de la publication est le représentant légal de SOCIORA SOLUTIONS.
+                Le directeur de la publication est le représentant légal de SocioraTech.
               </p>
             </div>
 
@@ -76,20 +76,20 @@ export default function Legal() {
               <h2 className="text-2xl font-bold text-primary mb-4">Propriété intellectuelle</h2>
               <p className="text-gray-700 mb-4">
                 L'ensemble du contenu de ce site (textes, images, graphismes, logo, icônes, etc.)
-                est la propriété exclusive de SOCIORA SOLUTIONS, à l'exception des marques, logos
+                est la propriété exclusive de SocioraTech, à l'exception des marques, logos
                 ou contenus appartenant à d'autres sociétés partenaires ou auteurs.
               </p>
               <p className="text-gray-700">
                 Toute reproduction, distribution, modification, adaptation, retransmission ou
                 publication de ces différents éléments est strictement interdite sans l'accord
-                exprès par écrit de SOCIORA SOLUTIONS.
+                exprès par écrit de SocioraTech.
               </p>
             </div>
 
             <div className="mb-12">
               <h2 className="text-2xl font-bold text-primary mb-4">Protection des données personnelles</h2>
               <p className="text-gray-700 mb-4">
-                SOCIORA SOLUTIONS s'engage à respecter la confidentialité des données personnelles
+                SocioraTech s'engage à respecter la confidentialité des données personnelles
                 communiquées par les utilisateurs de son site web et de ses applications.
               </p>
 
@@ -146,13 +146,13 @@ export default function Legal() {
             <div className="mb-12">
               <h2 className="text-2xl font-bold text-primary mb-4">Limitation de responsabilité</h2>
               <p className="text-gray-700 mb-4">
-                SOCIORA SOLUTIONS s'efforce d'assurer au mieux l'exactitude et la mise à jour
-                des informations diffusées sur ce site. Toutefois, SOCIORA SOLUTIONS ne peut
+                SocioraTech s'efforce d'assurer au mieux l'exactitude et la mise à jour
+                des informations diffusées sur ce site. Toutefois, SocioraTech ne peut
                 garantir l'exactitude, la précision ou l'exhaustivité des informations mises
                 à disposition sur ce site.
               </p>
               <p className="text-gray-700">
-                SOCIORA SOLUTIONS ne pourra être tenue responsable des dommages directs ou
+                SocioraTech ne pourra être tenue responsable des dommages directs ou
                 indirects résultant de l'utilisation de ce site ou des informations qui y
                 figurent.
               </p>
@@ -161,7 +161,7 @@ export default function Legal() {
             <div className="mb-12">
               <h2 className="text-2xl font-bold text-primary mb-4">Liens externes</h2>
               <p className="text-gray-700">
-                Ce site peut contenir des liens vers des sites externes. SOCIORA SOLUTIONS
+                Ce site peut contenir des liens vers des sites externes. SocioraTech
                 n'exerce aucun contrôle sur ces sites et décline toute responsabilité quant
                 à leur contenu.
               </p>
@@ -170,7 +170,7 @@ export default function Legal() {
             <div className="mb-12">
               <h2 className="text-2xl font-bold text-primary mb-4">Modifications</h2>
               <p className="text-gray-700">
-                SOCIORA SOLUTIONS se réserve le droit de modifier les présentes mentions
+                SocioraTech se réserve le droit de modifier les présentes mentions
                 légales à tout moment. Nous vous invitons à les consulter régulièrement.
               </p>
             </div>
