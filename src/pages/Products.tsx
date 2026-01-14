@@ -10,8 +10,9 @@ import {
   CheckCircle,
   ArrowRight
 } from 'lucide-react';
-
+import { useState } from "react";
 export default function Products() {
+  const [email, setEmail] = useState("");
   const orthoFeatures = [
     {
       icon: Calendar,
@@ -53,6 +54,30 @@ export default function Products() {
     'Mises à jour régulières et gratuites',
     'Formation complète incluse'
   ];
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault(); // empêche le rechargement de la page
+
+    try {
+      const res = await fetch("http://localhost:8000/api/subscribe/", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      });
+
+      const data = await res.json();
+
+      if (res.ok) {
+        alert(data.success);
+        setEmail(""); // vide le champ email
+      } else {
+        alert(data.error || "Une erreur est survenue");
+      }
+    } catch (err) {
+      console.error(err);
+      alert("Erreur serveur, veuillez réessayer plus tard.");
+    }
+  };
 
   return (
     <div className="min-h-screen">
@@ -187,10 +212,13 @@ export default function Products() {
               éducateurs spécialisés et autres professionnels du secteur socio-médical.
             </p>
             <div className="max-w-md mx-auto">
-            <form className="sm:flex-row gap-4 justify-center">
+            <form className="sm:flex-row gap-4 justify-center" onSubmit={handleSubmit}>
               
               <input
                 type="email"
+                name="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 required
                 placeholder="Votre adresse e-mail"
                 className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-secondary mb-4"
